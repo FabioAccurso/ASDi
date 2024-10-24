@@ -1,0 +1,193 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed Oct 23 12:00:41 2024
+# Process ID: 5824
+# Current directory: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.runs/synth_1
+# Command line: vivado.exe -log mux16_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux16_1.tcl
+# Log file: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.runs/synth_1/mux16_1.vds
+# Journal file: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.runs/synth_1\vivado.jou
+# Running On: DESKTOP-J65OIEO, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 8432 MB
+#-----------------------------------------------------------
+source mux16_1.tcl -notrace
+create_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:13 . Memory (MB): peak = 462.250 ; gain = 199.168
+Command: synth_design -top mux16_1 -part xc7a12ticsg325-1L
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a12ti'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13496
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 897.699 ; gain = 411.578
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'mux16_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:58]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux0' of component 'mux_4_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'mux_4_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:47]
+INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/imports/1-multiplexer21_dataflow/mux_2_1.vhd:8' bound to instance 'mux0' of component 'mux_2_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'mux_2_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/imports/1-multiplexer21_dataflow/mux_2_1.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'mux_2_1' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/imports/1-multiplexer21_dataflow/mux_2_1.vhd:19]
+INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/imports/1-multiplexer21_dataflow/mux_2_1.vhd:8' bound to instance 'mux1' of component 'mux_2_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:70]
+INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/imports/1-multiplexer21_dataflow/mux_2_1.vhd:8' bound to instance 'mux2' of component 'mux_2_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'mux_4_1' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:47]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux1' of component 'mux_4_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:91]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux2' of component 'mux_4_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:104]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux3' of component 'mux_4_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:116]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux4' of component 'mux_4_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:128]
+INFO: [Synth 8-256] done synthesizing module 'mux16_1' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:58]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 987.711 ; gain = 501.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 987.711 ; gain = 501.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a12ticsg325-1L
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a12ticsg325-1L
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 987.711 ; gain = 501.590
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 987.711 ; gain = 501.590
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 40 (col length:40)
+BRAMs: 40 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1157.266 ; gain = 671.145
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1158.148 ; gain = 672.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1158.148 ; gain = 672.027
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1159.145 ; gain = 673.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1159.145 ; gain = 673.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1159.145 ; gain = 673.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1159.145 ; gain = 673.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1159.145 ; gain = 673.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1159.145 ; gain = 673.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |LUT6  |     4|
+|2     |MUXF7 |     2|
+|3     |MUXF8 |     1|
+|4     |IBUF  |    20|
+|5     |OBUF  |     1|
++------+------+------+
+
+Report Instance Areas: 
++------+---------+-------+------+
+|      |Instance |Module |Cells |
++------+---------+-------+------+
+|1     |top      |       |    28|
++------+---------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1159.145 ; gain = 673.023
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1159.145 ; gain = 673.023
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:31 . Memory (MB): peak = 1159.145 ; gain = 673.023
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1171.227 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1261.258 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: d037e6b9
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:33 . Memory (MB): peak = 1261.258 ; gain = 799.008
+INFO: [Common 17-1381] The checkpoint 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.runs/synth_1/mux16_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file mux16_1_utilization_synth.rpt -pb mux16_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Oct 23 12:01:36 2024...

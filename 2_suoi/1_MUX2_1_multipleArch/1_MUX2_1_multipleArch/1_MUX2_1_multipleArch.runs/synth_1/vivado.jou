@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Oct  5 09:39:22 2023
+# Process ID: 15748
+# Current directory: C:/VIVADO-PROJECTS/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.runs/synth_1
+# Command line: vivado.exe -log mux_2_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux_2_1.tcl
+# Log file: C:/VIVADO-PROJECTS/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.runs/synth_1/mux_2_1.vds
+# Journal file: C:/VIVADO-PROJECTS/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source mux_2_1.tcl -notrace

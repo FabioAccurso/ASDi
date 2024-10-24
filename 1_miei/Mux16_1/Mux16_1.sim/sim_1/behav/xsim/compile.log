@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'mux16_1'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sim_1/new/tb_mux16_1.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_mux16_1'

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Oct 17 16:12:27 2024
+# Process ID: 8428
+# Current directory: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_MUX2_1_multipleArch/project_1/project_1.runs/synth_1
+# Command line: vivado.exe -log mux_2_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mux_2_1.tcl
+# Log file: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_MUX2_1_multipleArch/project_1/project_1.runs/synth_1/mux_2_1.vds
+# Journal file: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_MUX2_1_multipleArch/project_1/project_1.runs/synth_1\vivado.jou
+# Running On: DESKTOP-J65OIEO, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 8432 MB
+#-----------------------------------------------------------
+source mux_2_1.tcl -notrace
