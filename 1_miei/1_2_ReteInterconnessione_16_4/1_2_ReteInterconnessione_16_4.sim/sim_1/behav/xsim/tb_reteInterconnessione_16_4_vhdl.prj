@@ -1,0 +1,12 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd" \
+"../../../../../Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd" \
+"../../../../../Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd" \
+"../../../../../../2_suoi/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.srcs/sources_1/mux_2_1.vhd" \
+"../../../../../../2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd" \
+"../../../../1_2_ReteInterconnessione_16_4.srcs/sources_1/new/reteInterconnessione_16_4.vhd" \
+"../../../../1_2_ReteInterconnessione_16_4.srcs/sim_1/new/tb_reteInterconnessione_16_4.vhd" \
+
+# Do not sort compile order
+nosort
