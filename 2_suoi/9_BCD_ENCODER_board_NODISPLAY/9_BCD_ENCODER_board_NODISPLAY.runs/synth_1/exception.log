@@ -1,0 +1,4 @@
+ERROR: Exception caught trying to open file C:\Users\UTENTE\Desktop\Magistrale\ASDi\1_Vivado\2_suoi\9_BCD_ENCODER_board_NODISPLAY\9_BCD_ENCODER_board_NODISPLAY.runs\synth_1/runme.log
+	Exception name: Error
+	Exception error code: 70
+	Exception message: Autorizzazione negata

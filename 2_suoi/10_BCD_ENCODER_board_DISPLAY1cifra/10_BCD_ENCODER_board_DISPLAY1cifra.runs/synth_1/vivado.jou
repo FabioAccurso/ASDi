@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Nov 12 10:13:02 2024
+# Process ID: 16380
+# Current directory: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.runs/synth_1
+# Command line: vivado.exe -log Encoder_onBoard.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Encoder_onBoard.tcl
+# Log file: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.runs/synth_1/Encoder_onBoard.vds
+# Journal file: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.runs/synth_1\vivado.jou
+# Running On: DESKTOP-J65OIEO, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 8432 MB
+#-----------------------------------------------------------
+source Encoder_onBoard.tcl -notrace

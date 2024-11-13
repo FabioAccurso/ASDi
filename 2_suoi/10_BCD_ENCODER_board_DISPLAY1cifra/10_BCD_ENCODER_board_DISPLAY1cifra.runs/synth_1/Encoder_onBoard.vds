@@ -1,0 +1,231 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Nov 12 10:13:02 2024
+# Process ID: 16380
+# Current directory: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.runs/synth_1
+# Command line: vivado.exe -log Encoder_onBoard.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Encoder_onBoard.tcl
+# Log file: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.runs/synth_1/Encoder_onBoard.vds
+# Journal file: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.runs/synth_1\vivado.jou
+# Running On: DESKTOP-J65OIEO, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 8432 MB
+#-----------------------------------------------------------
+source Encoder_onBoard.tcl -notrace
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 481.488 ; gain = 217.062
+Command: synth_design -top Encoder_onBoard -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 9504
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1309.066 ; gain = 412.523
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-2551] possible infinite loop; process does not have a wait statement [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/sources_1/imports/new/cathodes_manager.vhd:82]
+INFO: [Synth 8-638] synthesizing module 'Encoder_onBoard' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/sources_1/imports/new/Encoder_onBoard.vhd:39]
+INFO: [Synth 8-3491] module 'Encoder' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/sources_1/imports/new/Encoder.vhd:34' bound to instance 'enc' of component 'Encoder' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/sources_1/imports/new/Encoder_onBoard.vhd:66]
+INFO: [Synth 8-638] synthesizing module 'Encoder' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/sources_1/imports/new/Encoder.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'Encoder' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/sources_1/imports/new/Encoder.vhd:41]
+INFO: [Synth 8-3491] module 'cathodes_manager' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/sources_1/imports/new/cathodes_manager.vhd:24' bound to instance 'cat' of component 'cathodes_manager' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/sources_1/imports/new/Encoder_onBoard.vhd:71]
+INFO: [Synth 8-638] synthesizing module 'cathodes_manager' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/sources_1/imports/new/cathodes_manager.vhd:30]
+INFO: [Synth 8-226] default block is never used [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/sources_1/imports/new/cathodes_manager.vhd:63]
+INFO: [Synth 8-256] done synthesizing module 'cathodes_manager' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/sources_1/imports/new/cathodes_manager.vhd:30]
+INFO: [Synth 8-256] done synthesizing module 'Encoder_onBoard' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/sources_1/imports/new/Encoder_onBoard.vhd:39]
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[7] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[6] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[5] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[4] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[3] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[2] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[1] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1399.105 ; gain = 502.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1399.105 ; gain = 502.562
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 1399.105 ; gain = 502.562
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1399.105 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Encoder_onBoard_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Encoder_onBoard_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1431.961 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1431.961 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input    4 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[7] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[6] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[5] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[4] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[3] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[2] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[1] driven by constant 0
+WARNING: [Synth 8-3917] design Encoder_onBoard has port anodi[0] driven by constant 0
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT5 |     2|
+|2     |LUT6 |    20|
+|3     |IBUF |    10|
+|4     |OBUF |    20|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1431.961 ; gain = 535.418
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 9 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:21 ; elapsed = 00:00:32 . Memory (MB): peak = 1431.961 ; gain = 502.562
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1431.961 ; gain = 535.418
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1440.578 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1447.430 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: f39d4b8f
+INFO: [Common 17-83] Releasing license: Synthesis
+22 Infos, 18 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:38 ; elapsed = 00:00:40 . Memory (MB): peak = 1447.430 ; gain = 965.941
+INFO: [Common 17-1381] The checkpoint 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/10_BCD_ENCODER_board_DISPLAY1cifra/10_BCD_ENCODER_board_DISPLAY1cifra.runs/synth_1/Encoder_onBoard.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Encoder_onBoard_utilization_synth.rpt -pb Encoder_onBoard_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 12 10:13:56 2024...
