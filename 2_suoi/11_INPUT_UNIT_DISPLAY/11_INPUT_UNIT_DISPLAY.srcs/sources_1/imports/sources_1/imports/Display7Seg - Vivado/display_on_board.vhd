@@ -94,7 +94,7 @@ cu: control_unit PORT MAP(
 
 seven_segment_array: display_seven_segments GENERIC MAP(
 	clock_frequency_in => 100000000, --qui inserisco i parametri effettivi (clock della board e impulso in uscita desiderato)
-	clock_frequency_out => 500
+	clock_frequency_out => 60
 		)
 	PORT MAP(
 		clock => clock,
