@@ -100,18 +100,18 @@ mux1: mux16_1
            c13 =>d(13),
            c14 =>d(14),
            c15 =>d(15), 
-           se0 =>sel(2),
-           se1 =>sel(3),
-           se2 =>sel(4),
-           se3 =>sel(5),
+           se0 =>sel(0),
+           se1 =>sel(1),
+           se2 =>sel(2),
+           se3 =>sel(3),
            y => u0
            );
 
 demux1: demux_1_4
     port map(
            b => u0,
-           f0 =>sel(0),
-           f1 =>sel(1),
+           f0 =>sel(4),
+           f1 =>sel(5),
            y0 =>y(0),
            y1 =>y(1),
            y2 =>y(2),
