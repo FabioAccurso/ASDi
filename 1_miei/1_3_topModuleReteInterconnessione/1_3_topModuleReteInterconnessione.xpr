@@ -98,20 +98,20 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../1_3_reteInterconnessione_board/1_3_reteInterconnessione_board.srcs/sources_1/imports/1_Vivado/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd">
-        <FileInfo RelPath="1_Vivado/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd">
+      <File Path="$PPRDIR/../Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../1_3_reteInterconnessione_board/1_3_reteInterconnessione_board.srcs/sources_1/imports/1_Vivado/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd">
-        <FileInfo RelPath="1_Vivado/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd">
+      <File Path="$PPRDIR/../Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../1_3_reteInterconnessione_board/1_3_reteInterconnessione_board.srcs/sources_1/imports/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd">
-        <FileInfo RelPath="1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd">
+      <File Path="$PPRDIR/../Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
@@ -122,20 +122,55 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../1_3_reteInterconnessione_board/1_3_reteInterconnessione_board.srcs/sources_1/imports/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd">
-        <FileInfo RelPath="1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd">
+      <File Path="$PPRDIR/../../2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../1_3_reteInterconnessione_board/1_3_reteInterconnessione_board.srcs/sources_1/imports/reteInterconnessione_16_4.vhd">
-        <FileInfo RelPath="reteInterconnessione_16_4.vhd">
+      <File Path="$PPRDIR/../1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.srcs/sources_1/new/reteInterconnessione_16_4.vhd">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/TopModule.vhd">
         <FileInfo>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../1_3_reteInterconnessione_board/1_3_reteInterconnessione_board.srcs/sources_1/imports/1_Vivado/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd">
+        <FileInfo RelPath="1_Vivado/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd">
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../1_3_reteInterconnessione_board/1_3_reteInterconnessione_board.srcs/sources_1/imports/1_Vivado/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd">
+        <FileInfo RelPath="1_Vivado/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd">
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../1_3_reteInterconnessione_board/1_3_reteInterconnessione_board.srcs/sources_1/imports/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd">
+        <FileInfo RelPath="1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd">
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../1_3_reteInterconnessione_board/1_3_reteInterconnessione_board.srcs/sources_1/imports/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd">
+        <FileInfo RelPath="1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd">
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PPRDIR/../1_3_reteInterconnessione_board/1_3_reteInterconnessione_board.srcs/sources_1/imports/reteInterconnessione_16_4.vhd">
+        <FileInfo RelPath="reteInterconnessione_16_4.vhd">
+          <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
