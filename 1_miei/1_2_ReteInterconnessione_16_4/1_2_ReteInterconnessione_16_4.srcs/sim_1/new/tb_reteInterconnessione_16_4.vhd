@@ -17,9 +17,9 @@ architecture behavior of tb_reteInterconnessione_16_4 is
     end component;
 
     -- Signals to connect to UUT
-    signal d : std_logic_vector(0 to 15);
-    signal sel : std_logic_vector(0 to 5);
-    signal y : std_logic_vector(0 to 3);
+    signal d : std_logic_vector(15 downto 0);
+    signal sel : std_logic_vector(5 downto 0);
+    signal y : std_logic_vector(3 downto 0);
 
 begin
 
@@ -35,36 +35,39 @@ begin
     stim_proc: process
     begin
         
-        -- [!!] i 2 bit piu' significativi selezionano uscita, i 4 meno significativi l'ingresso
+        -- [!!] dei 6 bit dei selettori: i 2 bit piu' significativi selezionano uscita, i 4 meno significativi l'ingresso
         
---        d <= "0000000000000001";  -- d(0) is '1', others are '0'
---        sel <= "000000";          -- Selects y0
---        wait for 100 ns;
-        
---        d <= "0000000000000001";  -- d(0) is '1', others are '0'
---        sel <= "010000";          -- Selects y1
---        wait for 100 ns;
-        
---        d <= "0000000000000001";  -- d(0) is '1', others are '0'
---        sel <= "100000";          -- Selects y2
---        wait for 100 ns;
-
-
---        d <= "0000000000000001";  -- d(0) is '1', others are '0'
---        sel <= "110000";          -- Selects y3
---        wait for 100 ns;
-
-
-
-        d <= "1111111111111111";  
-        sel <= "000000";   
+        d <= "0000000000000001";  -- d(0) is '1', others are '0'
+        sel <= "000000";          -- Selects y0
         wait for 100 ns;
-        sel <= "100100";      
+        
+        d <= "0000000000000001";  -- d(0) is '1', others are '0'
+        sel <= "010000";          -- Selects y1
         wait for 100 ns;
-        sel <= "010100";  
+        
+        d <= "0000000000000001";  -- d(0) is '1', others are '0'
+        sel <= "100000";          -- Selects y2
+        wait for 100 ns;
+
+
+        d <= "0000000000000001";  -- d(0) is '1', others are '0'
+        sel <= "110000";          -- Selects y3
+        wait for 100 ns;
+
+        d <= "0000000100000000";  -- d(8) is '1', others are '0'
+        sel <= "111000";          -- Selects y3
+        wait for 100 ns;
+
+
+--        d <= "1111111111111111";  
+--        sel <= "000000";   
+--        wait for 100 ns;
+--        sel <= "100100";      
+--        wait for 100 ns;
+--        sel <= "010100";  
    
-   
---        d <= "1010101010101010";  
+--        d <= "0101010101010101"; --opposto di cinzia -> funziona!
+----        d <= "1010101010101010";  
 --        sel <= "000000"; 
 --        wait for 100 ns;
 --        sel <= "010000"; 
