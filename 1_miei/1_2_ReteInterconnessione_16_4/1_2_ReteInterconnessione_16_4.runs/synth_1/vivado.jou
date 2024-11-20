@@ -3,8 +3,8 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Tue Nov 19 11:40:13 2024
-# Process ID: 2700
+# Start of session at: Wed Nov 20 12:12:09 2024
+# Process ID: 12128
 # Current directory: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.runs/synth_1
 # Command line: vivado.exe -log reteInterconnessione_16_4.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source reteInterconnessione_16_4.tcl
 # Log file: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.runs/synth_1/reteInterconnessione_16_4.vds

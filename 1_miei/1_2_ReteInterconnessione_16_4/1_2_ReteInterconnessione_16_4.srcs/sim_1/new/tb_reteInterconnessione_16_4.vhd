@@ -34,27 +34,41 @@ begin
     -- Stimulus process
     stim_proc: process
     begin
-        -- Test case 1
+        
         d <= "0000000000000001";  -- d(0) is '1', others are '0'
         sel <= "000000";          -- Selects y0
         wait for 100 ns;
         
-        -- Test case 2
-        d <= "0000000000000010";  -- d(1) is '1'
+        d <= "0000000000000001";  -- d(0) is '1', others are '0'
         sel <= "000001";          -- Selects y1
         wait for 100 ns;
         
-        -- Test case 3
-        d <= "0000000000000100";  -- d(2) is '1'
+        d <= "0000000000000001";  -- d(0) is '1', others are '0'
         sel <= "000010";          -- Selects y2
         wait for 100 ns;
-        
-        -- Test case 4
-        d <= "1000000000000000";  -- d(15) is '1'
-        sel <= "111111";          -- Selects y3
+
+
+        d <= "0000000000000001";  -- d(0) is '1', others are '0'
+        sel <= "000011";          -- Selects y3
+        wait for 100 ns;
+
+
+        d <= "0000000000010000";  -- d(4) is '1', others are '0'
+        sel <= "010010";          -- Selects y2
+        wait for 100 ns;
+
+        d <= "1111111111111111";  -- d(4) is '1', others are '0'
+        sel <= "000000";          -- Selects y2
+        wait for 100 ns;
+        sel <= "100100";          -- Selects y2
+        wait for 100 ns;
+        sel <= "100000";          -- Selects y2
+        wait for 100 ns;
+        sel <= "110000";          -- Selects y2
+        wait for 100 ns;
+        sel <= "000001";          -- Selects y2
         wait for 100 ns;
         
-        -- Add more test cases as needed
         
         wait;
     end process;
