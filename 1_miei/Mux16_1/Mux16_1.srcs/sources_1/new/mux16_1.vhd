@@ -52,7 +52,7 @@ entity mux16_1 is
            se1 : in STD_LOGIC;
            se2 : in STD_LOGIC;
            se3 : in STD_LOGIC;
-           y : out STD_LOGIC);
+           y1 : out STD_LOGIC);
 end mux16_1;
 
 architecture structural of mux16_1 is
@@ -133,7 +133,7 @@ begin
                 b3 =>u3,
                 s0 =>se2,
                 s1 =>se3,
-                y0 =>y
+                y0 =>y1
             );
             
 

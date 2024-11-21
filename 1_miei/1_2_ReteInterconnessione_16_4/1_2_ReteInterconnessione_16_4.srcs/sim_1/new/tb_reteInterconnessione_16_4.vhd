@@ -2,12 +2,9 @@ library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
 entity tb_reteInterconnessione_16_4 is
-    -- No ports in the testbench entity
 end tb_reteInterconnessione_16_4;
 
 architecture behavior of tb_reteInterconnessione_16_4 is
-
-    -- Component declaration for the unit under test (UUT)
     component reteInterconnessione_16_4
         Port (
             d : in std_logic_vector(15 downto 0);
@@ -16,14 +13,11 @@ architecture behavior of tb_reteInterconnessione_16_4 is
         );
     end component;
 
-    -- Signals to connect to UUT
     signal d : std_logic_vector(15 downto 0);
     signal sel : std_logic_vector(5 downto 0);
     signal y : std_logic_vector(3 downto 0);
 
 begin
-
-    -- Instantiate the Unit Under Test (UUT)
     uut: reteInterconnessione_16_4
         port map (
             d => d,
@@ -31,12 +25,10 @@ begin
             y => y
         );
 
-    -- Stimulus process
     stim_proc: process
     begin
-        
-        -- [!!] dei 6 bit dei selettori: i 2 bit piu' significativi selezionano uscita, i 4 meno significativi l'ingresso
-        
+         -- [!] dei 6 bit di selezione: i 2 bit piu' significativi selezionano uscita, i 4 meno significativi l'ingresso
+         
         d <= "0000000000000001";  -- d(0) is '1', others are '0'
         sel <= "000000";          -- Selects y0
         wait for 100 ns;
@@ -55,10 +47,20 @@ begin
         wait for 100 ns;
 
         d <= "0000000100000000";  -- d(8) is '1', others are '0'
-        sel <= "111000";          -- Selects y3
+        sel <= "101000";          -- Selects y2
         wait for 100 ns;
+        
+        d <= "0000000000000000";  -- test finale in modo da fare correttamente screen
+        sel <= "000000";
+        wait for 100 ns;
+        wait;
+    end process;
+
+end behavior;
 
 
+
+ 
 --        d <= "1111111111111111";  
 --        sel <= "000000";   
 --        wait for 100 ns;
@@ -79,7 +81,4 @@ begin
 --        sel <= "000001"; 
 --        wait for 100 ns;
         
-        wait;
-    end process;
 
-end behavior;

@@ -22,15 +22,6 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
--- Uncomment the following library declaration if using
--- arithmetic functions with Signed or Unsigned values
---use IEEE.NUMERIC_STD.ALL;
-
--- Uncomment the following library declaration if instantiating
--- any Xilinx leaf cells in this code.
---library UNISIM;
---use UNISIM.VComponents.all;
-
 entity reteInterconnessione_16_4 is
       Port (
         d : in std_logic_vector(15 downto 0);
@@ -64,7 +55,7 @@ component mux16_1
            se1 : in STD_LOGIC;
            se2 : in STD_LOGIC;
            se3 : in STD_LOGIC;
-           y : out STD_LOGIC
+           y1 : out STD_LOGIC
           );		
     end component;
 
@@ -104,7 +95,7 @@ mux1: mux16_1
            se1 =>sel(1),
            se2 =>sel(2),
            se3 =>sel(3),
-           y => u0
+           y1 => u0
            );
 
 demux1: demux_1_4
