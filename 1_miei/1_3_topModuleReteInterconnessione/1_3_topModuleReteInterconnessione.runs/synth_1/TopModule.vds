@@ -3,18 +3,18 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Thu Nov 21 14:47:31 2024
-# Process ID: 7476
-# Current directory: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.runs/synth_1
+# Start of session at: Thu Nov 21 18:57:38 2024
+# Process ID: 20176
+# Current directory: C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.runs/synth_1
 # Command line: vivado.exe -log TopModule.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TopModule.tcl
-# Log file: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.runs/synth_1/TopModule.vds
-# Journal file: C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.runs/synth_1\vivado.jou
-# Running On: DESKTOP-J65OIEO, OS: Windows, CPU Frequency: 1992 MHz, CPU Physical cores: 4, Host memory: 8432 MB
+# Log file: C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.runs/synth_1/TopModule.vds
+# Journal file: C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.runs/synth_1\vivado.jou
+# Running On: DESKTOP-MFGGA9M, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 12, Host memory: 17102 MB
 #-----------------------------------------------------------
 source TopModule.tcl -notrace
-create_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:19 . Memory (MB): peak = 480.004 ; gain = 216.102
-Command: read_checkpoint -auto_incremental -incremental C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/utils_1/imports/synth_1/TopModule.dcp
-INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/utils_1/imports/synth_1/TopModule.dcp for incremental synthesis
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 461.953 ; gain = 196.242
+Command: read_checkpoint -auto_incremental -incremental C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/utils_1/imports/synth_1/TopModule.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/utils_1/imports/synth_1/TopModule.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
 Command: synth_design -top TopModule -part xc7a100tcsg324-1
 Starting synth_design
@@ -25,91 +25,91 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 15664
+INFO: [Synth 8-7075] Helper process launched with PID 10828
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1312.836 ; gain = 411.852
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1293.664 ; gain = 409.535
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'TopModule' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/TopModule.vhd:45]
-INFO: [Synth 8-3491] module 'control_unit' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/controlUnit.vhd:34' bound to instance 'CU' of component 'control_unit' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/TopModule.vhd:70]
-INFO: [Synth 8-638] synthesizing module 'control_unit' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/controlUnit.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'control_unit' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/controlUnit.vhd:44]
-INFO: [Synth 8-3491] module 'reteInterconnessione_16_4' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.srcs/sources_1/new/reteInterconnessione_16_4.vhd:25' bound to instance 'Rete' of component 'reteInterconnessione_16_4' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/TopModule.vhd:80]
-INFO: [Synth 8-638] synthesizing module 'reteInterconnessione_16_4' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.srcs/sources_1/new/reteInterconnessione_16_4.vhd:33]
-INFO: [Synth 8-3491] module 'mux16_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:34' bound to instance 'mux1' of component 'mux16_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.srcs/sources_1/new/reteInterconnessione_16_4.vhd:76]
-INFO: [Synth 8-638] synthesizing module 'mux16_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:58]
-INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux0' of component 'mux_4_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:79]
-INFO: [Synth 8-638] synthesizing module 'mux_4_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:47]
-INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.srcs/sources_1/mux_2_1.vhd:11' bound to instance 'mux0' of component 'mux_2_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:64]
-INFO: [Synth 8-638] synthesizing module 'mux_2_1_dataflow' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.srcs/sources_1/mux_2_1.vhd:72]
-INFO: [Synth 8-256] done synthesizing module 'mux_2_1_dataflow' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.srcs/sources_1/mux_2_1.vhd:72]
-INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.srcs/sources_1/mux_2_1.vhd:11' bound to instance 'mux1' of component 'mux_2_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:70]
-INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.srcs/sources_1/mux_2_1.vhd:11' bound to instance 'mux2' of component 'mux_2_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:76]
-INFO: [Synth 8-256] done synthesizing module 'mux_4_1' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:47]
-INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux1' of component 'mux_4_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:91]
-INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux2' of component 'mux_4_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:104]
-INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux3' of component 'mux_4_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:116]
-INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux4' of component 'mux_4_1' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:128]
-INFO: [Synth 8-256] done synthesizing module 'mux16_1' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:58]
-INFO: [Synth 8-3491] module 'demux_1_4' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd:34' bound to instance 'demux1' of component 'demux_1_4' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.srcs/sources_1/new/reteInterconnessione_16_4.vhd:101]
-INFO: [Synth 8-638] synthesizing module 'demux_1_4' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd:44]
-INFO: [Synth 8-3491] module 'demux1_2' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:34' bound to instance 'demux0' of component 'demux1_2' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd:56]
-INFO: [Synth 8-638] synthesizing module 'demux1_2' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:41]
-INFO: [Synth 8-226] default block is never used [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:44]
-INFO: [Synth 8-226] default block is never used [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:48]
-INFO: [Synth 8-256] done synthesizing module 'demux1_2' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:41]
-INFO: [Synth 8-3491] module 'demux1_2' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:34' bound to instance 'demux1' of component 'demux1_2' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd:64]
-INFO: [Synth 8-3491] module 'demux1_2' declared at 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:34' bound to instance 'demux2' of component 'demux1_2' [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd:73]
-INFO: [Synth 8-256] done synthesizing module 'demux_1_4' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd:44]
-INFO: [Synth 8-256] done synthesizing module 'reteInterconnessione_16_4' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.srcs/sources_1/new/reteInterconnessione_16_4.vhd:33]
-INFO: [Synth 8-256] done synthesizing module 'TopModule' (0#1) [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/TopModule.vhd:45]
+INFO: [Synth 8-638] synthesizing module 'TopModule' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/TopModule.vhd:45]
+INFO: [Synth 8-3491] module 'control_unit' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/controlUnit.vhd:34' bound to instance 'CU' of component 'control_unit' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/TopModule.vhd:70]
+INFO: [Synth 8-638] synthesizing module 'control_unit' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/controlUnit.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'control_unit' (0#1) [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/controlUnit.vhd:44]
+INFO: [Synth 8-3491] module 'reteInterconnessione_16_4' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.srcs/sources_1/new/reteInterconnessione_16_4.vhd:25' bound to instance 'Rete' of component 'reteInterconnessione_16_4' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/TopModule.vhd:80]
+INFO: [Synth 8-638] synthesizing module 'reteInterconnessione_16_4' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.srcs/sources_1/new/reteInterconnessione_16_4.vhd:33]
+INFO: [Synth 8-3491] module 'mux16_1' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:34' bound to instance 'mux1' of component 'mux16_1' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.srcs/sources_1/new/reteInterconnessione_16_4.vhd:76]
+INFO: [Synth 8-638] synthesizing module 'mux16_1' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:58]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux0' of component 'mux_4_1' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:79]
+INFO: [Synth 8-638] synthesizing module 'mux_4_1' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:47]
+INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.srcs/sources_1/mux_2_1.vhd:11' bound to instance 'mux0' of component 'mux_2_1' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:64]
+INFO: [Synth 8-638] synthesizing module 'mux_2_1_dataflow' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.srcs/sources_1/mux_2_1.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'mux_2_1_dataflow' (0#1) [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.srcs/sources_1/mux_2_1.vhd:72]
+INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.srcs/sources_1/mux_2_1.vhd:11' bound to instance 'mux1' of component 'mux_2_1' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:70]
+INFO: [Synth 8-3491] module 'mux_2_1' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch/1_MUX2_1_multipleArch.srcs/sources_1/mux_2_1.vhd:11' bound to instance 'mux2' of component 'mux_2_1' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:76]
+INFO: [Synth 8-256] done synthesizing module 'mux_4_1' (0#1) [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:47]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux1' of component 'mux_4_1' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:91]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux2' of component 'mux_4_1' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:104]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux3' of component 'mux_4_1' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:116]
+INFO: [Synth 8-3491] module 'mux_4_1' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/2_MUX4_1_structural/2_MUX4_1_structural.srcs/sources_1/new/mux_4_1.vhd:35' bound to instance 'mux4' of component 'mux_4_1' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:128]
+INFO: [Synth 8-256] done synthesizing module 'mux16_1' (0#1) [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Mux16_1/Mux16_1.srcs/sources_1/new/mux16_1.vhd:58]
+INFO: [Synth 8-3491] module 'demux_1_4' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd:34' bound to instance 'demux1' of component 'demux_1_4' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.srcs/sources_1/new/reteInterconnessione_16_4.vhd:101]
+INFO: [Synth 8-638] synthesizing module 'demux_1_4' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd:44]
+INFO: [Synth 8-3491] module 'demux1_2' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:34' bound to instance 'demux0' of component 'demux1_2' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd:56]
+INFO: [Synth 8-638] synthesizing module 'demux1_2' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:41]
+INFO: [Synth 8-226] default block is never used [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:44]
+INFO: [Synth 8-226] default block is never used [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:48]
+INFO: [Synth 8-256] done synthesizing module 'demux1_2' (0#1) [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:41]
+INFO: [Synth 8-3491] module 'demux1_2' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:34' bound to instance 'demux1' of component 'demux1_2' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd:64]
+INFO: [Synth 8-3491] module 'demux1_2' declared at 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux1_2/Demux1_2.srcs/sources_1/new/demux1_2.vhd:34' bound to instance 'demux2' of component 'demux1_2' [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd:73]
+INFO: [Synth 8-256] done synthesizing module 'demux_1_4' (0#1) [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/Demux_1_4/Demux_1_4.srcs/sources_1/new/demux_1_4.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'reteInterconnessione_16_4' (0#1) [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_2_ReteInterconnessione_16_4/1_2_ReteInterconnessione_16_4.srcs/sources_1/new/reteInterconnessione_16_4.vhd:33]
+INFO: [Synth 8-256] done synthesizing module 'TopModule' (0#1) [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/sources_1/new/TopModule.vhd:45]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1402.773 ; gain = 501.789
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1384.746 ; gain = 500.617
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1402.773 ; gain = 501.789
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1384.746 ; gain = 500.617
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1402.773 ; gain = 501.789
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1384.746 ; gain = 500.617
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1402.773 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1384.746 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
-Finished Parsing XDC File [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopModule_propImpl.xdc].
+Parsing XDC File [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TopModule_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/TopModule_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1483.996 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1402.000 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1483.996 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1402.000 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1402.000 ; gain = 517.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1402.000 ; gain = 517.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1402.000 ; gain = 517.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:25 ; elapsed = 00:00:27 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1402.000 ; gain = 517.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -137,25 +137,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:28 ; elapsed = 00:00:30 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1402.000 ; gain = 517.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1402.000 ; gain = 517.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1402.000 ; gain = 517.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1402.000 ; gain = 517.871
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -173,37 +173,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1403.305 ; gain = 519.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1403.305 ; gain = 519.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1403.305 ; gain = 519.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1403.305 ; gain = 519.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1403.305 ; gain = 519.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1403.305 ; gain = 519.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -229,18 +229,18 @@ Report Cell Usage:
 |8     |OBUF  |     4|
 +------+------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1403.305 ; gain = 519.176
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:32 ; elapsed = 00:00:44 . Memory (MB): peak = 1483.996 ; gain = 501.789
-Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:00:47 . Memory (MB): peak = 1483.996 ; gain = 583.012
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:21 . Memory (MB): peak = 1403.305 ; gain = 501.922
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 1403.305 ; gain = 519.176
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1483.996 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1415.352 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1483.996 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1423.051 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -248,7 +248,7 @@ Synth Design complete | Checksum: 7fd7687f
 INFO: [Common 17-83] Releasing license: Synthesis
 54 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:57 . Memory (MB): peak = 1483.996 ; gain = 980.105
-INFO: [Common 17-1381] The checkpoint 'C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.runs/synth_1/TopModule.dcp' has been generated.
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:33 . Memory (MB): peak = 1423.051 ; gain = 936.266
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.runs/synth_1/TopModule.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file TopModule_utilization_synth.rpt -pb TopModule_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Thu Nov 21 14:48:51 2024...
+INFO: [Common 17-206] Exiting Vivado at Thu Nov 21 18:58:20 2024...

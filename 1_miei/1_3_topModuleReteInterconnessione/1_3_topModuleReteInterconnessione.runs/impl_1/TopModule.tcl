@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.runs/impl_1/TopModule.tcl"
+  variable script "C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.runs/impl_1/TopModule.tcl"
   variable category "vivado_impl"
 }
 
@@ -122,8 +122,8 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 2
-  set_param runs.launchOptions { -jobs 4  }
+  set_param chipscope.maxJobs 3
+  set_param runs.launchOptions { -jobs 6  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a100tcsg324-1
   set_property board_part digilentinc.com:nexys-a7-100t:part0:1.3 [current_project]
@@ -131,15 +131,15 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.cache/wt [current_project]
-  set_property parent.project_path C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.xpr [current_project]
-  set_property ip_output_repo C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.cache/wt [current_project]
+  set_property parent.project_path C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.xpr [current_project]
+  set_property ip_output_repo C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.runs/synth_1/TopModule.dcp
+  add_files -quiet C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.runs/synth_1/TopModule.dcp
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc
+  read_xdc C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }

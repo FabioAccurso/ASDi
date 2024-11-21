@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc rfile:../../../1_3_topModuleReteInterconnessione.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/1_3_topModuleReteInterconnessione/1_3_topModuleReteInterconnessione.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc rfile:../../../1_3_topModuleReteInterconnessione.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:7 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN E3    IOSTANDARD LVCMOS33 } [get_ports { clk }]; #IO_L12P_T1_MRCC_35 Sch=clk100mhz
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
@@ -38,6 +38,6 @@ set_property -dict { PACKAGE_PIN J13   IOSTANDARD LVCMOS33 } [get_ports { led_ou
 set_property src_info {type:XDC file:1 line:33 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN N14   IOSTANDARD LVCMOS33 } [get_ports { led_out[3] }]; #IO_L8P_T1_D11_14 Sch=led[3]
 set_property src_info {type:XDC file:1 line:77 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN P17   IOSTANDARD LVCMOS33 } [get_ports { upFirst }]; #IO_L12P_T1_MRCC_14 Sch=btnl
+set_property -dict { PACKAGE_PIN P17   IOSTANDARD LVCMOS33 } [get_ports { upSecond }]; #IO_L12P_T1_MRCC_14 Sch=btnl
 set_property src_info {type:XDC file:1 line:78 export:INPUT save:INPUT read:READ} [current_design]
-set_property -dict { PACKAGE_PIN M17   IOSTANDARD LVCMOS33 } [get_ports { upSecond }]; #IO_L10N_T1_D15_14 Sch=btnr
+set_property -dict { PACKAGE_PIN M17   IOSTANDARD LVCMOS33 } [get_ports { upFirst }]; #IO_L10N_T1_D15_14 Sch=btnr
