@@ -1,4 +1,4 @@
-set_property SRC_FILE_INFO {cfile:C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/9_BCD_ENCODER_board_NODISPLAY/9_BCD_ENCODER_board_NODISPLAY.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc rfile:../../../9_BCD_ENCODER_board_NODISPLAY.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc id:1} [current_design]
+set_property SRC_FILE_INFO {cfile:C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/9_BCD_ENCODER_board_NODISPLAY/9_BCD_ENCODER_board_NODISPLAY.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc rfile:../../../9_BCD_ENCODER_board_NODISPLAY.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc id:1} [current_design]
 set_property src_info {type:XDC file:1 line:12 export:INPUT save:INPUT read:READ} [current_design]
 set_property -dict { PACKAGE_PIN J15   IOSTANDARD LVCMOS33 } [get_ports { X[0] }]; #IO_L24N_T3_RS0_15 Sch=sw[0]
 set_property src_info {type:XDC file:1 line:13 export:INPUT save:INPUT read:READ} [current_design]

@@ -1,63 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1731400980">
+<GenRun Id="impl_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1732564583">
   <File Type="ROUTE-PWR" Name="Encoder_power_routed.rpt"/>
   <File Type="PA-TCL" Name="Encoder.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="Encoder_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="Encoder_reports.tcl"/>
-  <File Type="BITSTR-MSK" Name="Encoder.msk"/>
-  <File Type="ROUTE-CLK" Name="Encoder_clock_utilization_routed.rpt"/>
-  <File Type="RDI-RDI" Name="Encoder.vdi"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Encoder_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="Encoder.bit"/>
-  <File Type="BG-DRC" Name="Encoder.drc"/>
-  <File Type="BG-BGN" Name="Encoder.bgn"/>
-  <File Type="BG-BIN" Name="Encoder.bin"/>
-  <File Type="BITSTR-RBT" Name="Encoder.rbt"/>
-  <File Type="BITSTR-NKY" Name="Encoder.nky"/>
-  <File Type="BITSTR-BMM" Name="Encoder_bd.bmm"/>
+  <File Type="OPT-RQA-PB" Name="Encoder_rqa_opted.pb"/>
   <File Type="BITSTR-MMI" Name="Encoder.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="Encoder_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-SYSDEF" Name="Encoder.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="Encoder.ltx"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="Encoder_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="Encoder_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="Encoder_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="Encoder_opt.dcp"/>
   <File Type="OPT-DRC" Name="Encoder_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="Encoder.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Encoder_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="Encoder_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="Encoder_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="Encoder_placed.dcp"/>
   <File Type="PLACE-IO" Name="Encoder_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="Encoder_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="Encoder_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="Encoder_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="Encoder_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="Encoder_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="Encoder_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="Encoder.bin"/>
+  <File Type="PLACE-TIMING" Name="Encoder_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="Encoder_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="Encoder_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Encoder_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Encoder.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="Encoder_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="Encoder_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="Encoder_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="Encoder.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="Encoder_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Encoder_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Encoder_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Encoder_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="Encoder_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="Encoder_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="Encoder_power_routed.rpx"/>
+  <File Type="ROUTE-DRC-RPX" Name="Encoder_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="Encoder_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Encoder_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Encoder_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="Encoder_rqs_routed.pb"/>
   <File Type="ROUTE-STATUS" Name="Encoder_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="Encoder_route_status.pb"/>
-  <File Type="ROUTE-DCP" Name="Encoder_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="Encoder_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="Encoder_routed_bb.dcp"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="Encoder_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="Encoder_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="Encoder_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="Encoder_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="Encoder_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="Encoder_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="Encoder_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="Encoder_bus_skew_routed.rpx"/>
-  <File Type="OPT-DCP" Name="Encoder_opt.dcp"/>
-  <File Type="PLACE-DCP" Name="Encoder_placed.dcp"/>
-  <File Type="PWROPT-DCP" Name="Encoder_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="Encoder_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="Encoder_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="Encoder_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Encoder_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="Encoder_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="Encoder_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="Encoder_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="Encoder_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="Encoder.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="Encoder_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="Encoder_bus_skew_postroute_physopted.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="Encoder_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="Encoder_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="Encoder_methodology_drc_routed.rpx"/>
+  <File Type="BITSTR-NKY" Name="Encoder.nky"/>
+  <File Type="BITSTR-BMM" Name="Encoder_bd.bmm"/>
   <File Type="PDI-FILE" Name="Encoder.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="Encoder_soc.pdi"/>
   <File Type="PL-PDI-FILE" Name="Encoder_pld.pdi"/>
@@ -66,6 +73,13 @@
   <File Type="RNPI_FILE" Name="Encoder.rnpi"/>
   <File Type="NPI_FILE" Name="Encoder.npi"/>
   <File Type="RBD_FILE" Name="Encoder.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="Encoder.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="Encoder.sysdef"/>
+  <File Type="BG-BGN" Name="Encoder.bgn"/>
+  <File Type="BG-DRC" Name="Encoder.drc"/>
+  <File Type="RDI-RDI" Name="Encoder.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="ROUTE-RQS" Name="Encoder_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="Encoder_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>

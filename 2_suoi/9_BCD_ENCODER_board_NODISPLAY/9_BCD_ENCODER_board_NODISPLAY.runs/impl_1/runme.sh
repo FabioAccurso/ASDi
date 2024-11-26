@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/UTENTE/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/9_BCD_ENCODER_board_NODISPLAY/9_BCD_ENCODER_board_NODISPLAY.runs/impl_1'
+HD_PWD='C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/2_suoi/9_BCD_ENCODER_board_NODISPLAY/9_BCD_ENCODER_board_NODISPLAY.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,7 +42,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
+/bin/touch .init_design.begin.rst
 EAStep vivado -log Encoder.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source Encoder.tcl -notrace
 
 
