@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Tue Nov 26 00:43:04 2024
-| Host         : DESKTOP-MFGGA9M running 64-bit major release  (build 9200)
+| Date         : Wed Nov 27 12:15:31 2024
+| Host         : DESKTOP-J65OIEO running 64-bit major release  (build 9200)
 | Command      : report_methodology -file TopModule_methodology_drc_routed.rpt -pb TopModule_methodology_drc_routed.pb -rpx TopModule_methodology_drc_routed.rpx
 | Design       : TopModule
 | Device       : xc7a100tcsg324-1
@@ -23,12 +23,14 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 6
-+-----------+----------+-------------------------------+------------+
-| Rule      | Severity | Description                   | Violations |
-+-----------+----------+-------------------------------+------------+
-| TIMING-18 | Warning  | Missing input or output delay | 6          |
-+-----------+----------+-------------------------------+------------+
+             Violations found: 8
++-----------+----------+--------------------------------+------------+
+| Rule      | Severity | Description                    | Violations |
++-----------+----------+--------------------------------+------------+
+| TIMING-18 | Warning  | Missing input or output delay  | 4          |
+| TIMING-20 | Warning  | Non-clocked latch              | 3          |
+| LATCH-1   | Advisory | Existing latches in the design | 1          |
++-----------+----------+--------------------------------+------------+
 
 2. REPORT DETAILS
 -----------------
@@ -39,27 +41,37 @@ Related violations: <none>
 
 TIMING-18#2 Warning
 Missing input or output delay  
-An input delay is missing on B2 relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+An input delay is missing on S1 relative to the rising and/or falling clock edge(s) of sys_clk_pin.
 Related violations: <none>
 
 TIMING-18#3 Warning
 Missing input or output delay  
-An input delay is missing on S1 relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+An input delay is missing on S2 relative to the rising and/or falling clock edge(s) of sys_clk_pin.
 Related violations: <none>
 
 TIMING-18#4 Warning
 Missing input or output delay  
-An input delay is missing on S2 relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+An output delay is missing on led relative to the rising and/or falling clock edge(s) of sys_clk_pin.
 Related violations: <none>
 
-TIMING-18#5 Warning
-Missing input or output delay  
-An input delay is missing on reset relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+TIMING-20#1 Warning
+Non-clocked latch  
+The latch ric/stato_prossimo_reg[0] cannot be properly analyzed as its control pin ric/stato_prossimo_reg[0]/G is not reached by a timing clock
 Related violations: <none>
 
-TIMING-18#6 Warning
-Missing input or output delay  
-An output delay is missing on led_out relative to the rising and/or falling clock edge(s) of sys_clk_pin.
+TIMING-20#2 Warning
+Non-clocked latch  
+The latch ric/stato_prossimo_reg[1] cannot be properly analyzed as its control pin ric/stato_prossimo_reg[1]/G is not reached by a timing clock
+Related violations: <none>
+
+TIMING-20#3 Warning
+Non-clocked latch  
+The latch ric/stato_prossimo_reg[2] cannot be properly analyzed as its control pin ric/stato_prossimo_reg[2]/G is not reached by a timing clock
+Related violations: <none>
+
+LATCH-1#1 Advisory
+Existing latches in the design  
+There are 3 latches found in the design. Inferred latches are often the result of HDL coding mistakes, such as incomplete if or case statements.
 Related violations: <none>
 
 

@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.runs/impl_1/TopModule.tcl"
+  variable script "C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.runs/impl_1/TopModule.tcl"
   variable category "vivado_impl"
 }
 
@@ -115,8 +115,6 @@ proc step_failed { step } {
 OPTRACE "impl_1" END { }
 }
 
-set_msg_config -id {Synth 8-256} -limit 10000
-set_msg_config -id {Synth 8-638} -limit 10000
 
 OPTRACE "impl_1" START { ROLLUP_1 }
 OPTRACE "Phase: Init Design" START { ROLLUP_AUTO }
@@ -124,10 +122,8 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param checkpoint.writeSynthRtdsInDcp 1
-  set_param chipscope.maxJobs 3
-  set_param xicom.use_bs_reader 1
-  set_param runs.launchOptions { -jobs 6  }
+  set_param chipscope.maxJobs 2
+  set_param runs.launchOptions { -jobs 4  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a100tcsg324-1
   set_property board_part digilentinc.com:nexys-a7-100t:part0:1.3 [current_project]
@@ -135,15 +131,15 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.cache/wt [current_project]
-  set_property parent.project_path C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.xpr [current_project]
-  set_property ip_output_repo C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.cache/ip [current_project]
+  set_property webtalk.parent_dir {C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.cache/wt} [current_project]
+  set_property parent.project_path {C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.xpr} [current_project]
+  set_property ip_output_repo {{C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.cache/ip}} [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.runs/synth_1/TopModule.dcp
+  add_files -quiet {{C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.runs/synth_1/TopModule.dcp}}
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc
+  read_xdc {{C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc}}
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }
