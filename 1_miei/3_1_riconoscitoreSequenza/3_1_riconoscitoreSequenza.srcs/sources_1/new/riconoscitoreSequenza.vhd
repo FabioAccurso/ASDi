@@ -46,36 +46,41 @@ begin
             else
                 if (m='0') then
                     case statoCorrente is
-                        when s0 => if(i='0') then
-                            statoCorrente <= s1;
-                            y <= '0';
-                        else
-                            statoCorrente <= s2;
-                            y <= '0';
-                        end if;
+                        when s0 => 
+                            if(i='0') then
+                                statoCorrente <= s1;
+                                y <= '0';
+                            else
+                                statoCorrente <= s2;
+                                y <= '0';
+                            end if;
 
-                        when s1 => statoCorrente <= s3;
-                            y <= '0';
-
-                        when s2 => if(i='0') then
-                            statoCorrente <= s4;
-                            y <= '0';
-                        else
+                        when s1 => 
                             statoCorrente <= s3;
                             y <= '0';
-                        end if;
 
-                        when s3 => statoCorrente <= s0;
-                            y <= '0';
-                        when s4 => if(i='0') then
+                        when s2 => 
+                            if(i='0') then
+                                statoCorrente <= s4;
+                                y <= '0';
+                            else
+                                statoCorrente <= s3;
+                                y <= '0';
+                            end if;
+
+                        when s3 => 
                             statoCorrente <= s0;
                             y <= '0';
-                        else
+                        when s4 => 
+                            if(i='0') then
+                                statoCorrente <= s0;
+                                y <= '0';
+                            else
+                                statoCorrente <= s0;
+                                y <= '1';
+                            end if;
+                        when others => 
                             statoCorrente <= s0;
-                            y <= '1';
-                        end if;
-
-                        when others => statoCorrente <= s0;
                             y <= '0';
                     end case;
                 else
