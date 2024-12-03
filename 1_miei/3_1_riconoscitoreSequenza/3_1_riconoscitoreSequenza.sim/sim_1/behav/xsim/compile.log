@@ -1,4 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_1_riconoscitoreSequenza/3_1_riconoscitoreSequenza.srcs/sources_1/new/riconoscitore.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_1_riconoscitoreSequenza/3_1_riconoscitoreSequenza.srcs/sources_1/new/riconoscitore.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'riconoscitore'
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_1_riconoscitoreSequenza/3_1_riconoscitoreSequenza.srcs/sim_1/new/tb_riconoscitore.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_1_riconoscitoreSequenza/3_1_riconoscitoreSequenza.srcs/sim_1/new/tb_riconoscitore.vhd" into library xil_defaultlib
 INFO: [VRFC 10-3107] analyzing entity 'riconoscitore_tb'
