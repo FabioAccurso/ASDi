@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1699900283">
+  <File Type="PA-TCL" Name="molt_rob.tcl"/>
+  <File Type="REPORTS-TCL" Name="molt_rob_reports.tcl"/>
+  <File Type="RDS-RDS" Name="molt_rob.vds"/>
+  <File Type="RDS-UTIL" Name="molt_rob_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="molt_rob_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="molt_rob.dcp"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/imports/new/FFD.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources_1/new/FFD.vhd"/>
+        <Attr Name="ImportTime" Val="1670939455"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/adder_sub.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources_1/new/adder_sub.vhd"/>
+        <Attr Name="ImportTime" Val="1670864226"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/cont_mod8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources_1/new/cont_mod8.vhd"/>
+        <Attr Name="ImportTime" Val="1670939490"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/full_adder.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources_1/new/full_adder.vhd"/>
+        <Attr Name="ImportTime" Val="1670864580"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/mux_21.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources_1/new/mux_21.vhd"/>
+        <Attr Name="ImportTime" Val="1670864522"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/registro8.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources_1/new/registro8.vhd"/>
+        <Attr Name="ImportTime" Val="1670939358"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/ripple_carry.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources_1/new/ripple_carry.vhd"/>
+        <Attr Name="ImportTime" Val="1670864664"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/shift_register.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources_1/new/shift_register.vhd"/>
+        <Attr Name="ImportTime" Val="1670939415"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/unita_controllo.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources_1/new/unita_controllo.vhd"/>
+        <Attr Name="ImportTime" Val="1670939036"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/unita_operativa.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources_1/new/unita_operativa.vhd"/>
+        <Attr Name="ImportTime" Val="1670934135"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/new/molt_rob.vhd">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../sources_1/new/molt_rob.vhd"/>
+        <Attr Name="ImportTime" Val="1670942731"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="molt_rob"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>
