@@ -1,0 +1,11 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../5_1_cronometro.srcs/sources_1/imports/1_miei/counter_mod24/counter_mod24.srcs/sources_1/new/counter_mod24.vhd" \
+"../../../../5_1_cronometro.srcs/sources_1/imports/1_miei/counter_mod60/counter_mod60.srcs/sources_1/new/counter_mod60.vhd" \
+"../../../../5_1_cronometro.srcs/sources_1/new/cronometro.vhd" \
+"../../../../5_1_cronometro.srcs/sources_1/imports/1_miei/divisore_frequenza/divisore_frequenza.srcs/sources_1/new/divisore_frequenza.vhd" \
+"../../../../5_1_cronometro.srcs/sources_1/imports/1_miei/flip_flop_t/flip_flop_t.srcs/sources_1/new/flip_flop_t.vhd" \
+"../../../../5_1_cronometro.srcs/sim_1/new/cronometro_tb.vhd" \
+
+# Do not sort compile order
+nosort

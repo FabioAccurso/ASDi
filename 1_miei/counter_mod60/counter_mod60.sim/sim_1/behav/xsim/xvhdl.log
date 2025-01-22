@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/counter_mod60/counter_mod60.srcs/sources_1/new/counter_mod60.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'counter_mod60'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/counter_mod60/counter_mod60.srcs/sources_1/imports/new/flip_flop_t.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'flip_flop_t'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/counter_mod60/counter_mod60.srcs/sim_1/new/tb_counter_mod60.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_counter_mod60'

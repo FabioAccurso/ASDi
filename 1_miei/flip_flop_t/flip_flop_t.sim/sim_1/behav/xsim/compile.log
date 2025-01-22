@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/flip_flop_t/flip_flop_t.srcs/sources_1/new/flip_flop_t.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'flip_flop_t'
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/flip_flop_t/flip_flop_t.srcs/sim_1/new/tb_flip_flop_t.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'flip_flop_t_tb'

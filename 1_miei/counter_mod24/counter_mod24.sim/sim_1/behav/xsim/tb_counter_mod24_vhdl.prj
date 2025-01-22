@@ -1,0 +1,8 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../counter_mod24.srcs/sources_1/new/counter_mod24.vhd" \
+"../../../../counter_mod24.srcs/sources_1/imports/new/flip_flop_t.vhd" \
+"../../../../counter_mod24.srcs/sim_1/new/tb_counter_mod24.vhd" \
+
+# Do not sort compile order
+nosort
