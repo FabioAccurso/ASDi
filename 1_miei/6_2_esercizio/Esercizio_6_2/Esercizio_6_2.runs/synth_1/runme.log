@@ -1,0 +1,297 @@
+
+*** Running vivado
+    with args -log Sistema.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source Sistema.tcl
+
+
+ECHO disattivato.
+ECHO disattivato.
+
+****** Vivado v2023.1 (64-bit)
+  **** SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+  **** IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+  **** SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source Sistema.tcl -notrace
+create_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 461.273 ; gain = 197.559
+Command: read_checkpoint -auto_incremental -incremental C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/utils_1/imports/synth_1/Sistema.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/utils_1/imports/synth_1/Sistema.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top Sistema -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5480
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1295.211 ; gain = 412.555
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'Sistema' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Sistema.vhd:18]
+	Parameter bits bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'ROM' declared at 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/ROM.vhd:5' bound to instance 'rom_0' of component 'ROM' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Sistema.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'ROM' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/ROM.vhd:17]
+	Parameter bits bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'ROM' (0#1) [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/ROM.vhd:17]
+INFO: [Synth 8-3491] module 'M' declared at 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/M.vhd:5' bound to instance 'macc' of component 'M' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Sistema.vhd:99]
+INFO: [Synth 8-638] synthesizing module 'M' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/M.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'M' (0#1) [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/M.vhd:14]
+	Parameter bits bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'MEM' declared at 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/MEM.vhd:27' bound to instance 'mem_0' of component 'MEM' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Sistema.vhd:106]
+INFO: [Synth 8-638] synthesizing module 'MEM' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/MEM.vhd:40]
+	Parameter bits bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'MEM' (0#1) [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/MEM.vhd:40]
+	Parameter bits bound to: 4 - type: integer 
+INFO: [Synth 8-3491] module 'contatore' declared at 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/contatore.vhd:26' bound to instance 'cont' of component 'contatore' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Sistema.vhd:116]
+INFO: [Synth 8-638] synthesizing module 'contatore' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/contatore.vhd:35]
+	Parameter bits bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'contatore' (0#1) [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/contatore.vhd:35]
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-3491] module 'Control_Unit' declared at 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Control_Unit.vhd:27' bound to instance 'CU' of component 'Control_Unit' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Sistema.vhd:126]
+INFO: [Synth 8-638] synthesizing module 'Control_Unit' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Control_Unit.vhd:40]
+	Parameter bits bound to: 4 - type: integer 
+	Parameter N bound to: 16 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'Control_Unit' (0#1) [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Control_Unit.vhd:40]
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/clock_divider.vhd:4' bound to instance 'C_D' of component 'clock_divider' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Sistema.vhd:139]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/clock_divider.vhd:18]
+	Parameter clock_frequency_in bound to: 100000000 - type: integer 
+	Parameter clock_frequency_out bound to: 2 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (0#1) [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/clock_divider.vhd:18]
+INFO: [Synth 8-256] done synthesizing module 'Sistema' (0#1) [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Sistema.vhd:18]
+WARNING: [Synth 8-7129] Port clk in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port write in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[3] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[2] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[1] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port address[0] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input[3] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input[2] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input[1] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port input[0] in module MEM is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[7] in module M is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[6] in module M is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[5] in module M is either unconnected or has no load
+WARNING: [Synth 8-7129] Port data_in[4] in module M is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1384.543 ; gain = 501.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1384.543 ; gain = 501.887
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1384.543 ; gain = 501.887
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1384.543 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+Finished Parsing XDC File [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Sistema_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/Sistema_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1468.504 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1468.504 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'current_state_reg' in module 'Control_Unit'
+WARNING: [Synth 8-327] inferring latch for variable 'enable_reg' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Control_Unit.vhd:75]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    idle |                            00001 |                              000
+                 lettura |                            00010 |                              001
+               scrittura |                            00100 |                              010
+              incr_count |                            01000 |                              011
+                    fine |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'current_state_reg' using encoding 'one-hot' in module 'Control_Unit'
+WARNING: [Synth 8-327] inferring latch for variable 'read_reg' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Control_Unit.vhd:76]
+WARNING: [Synth 8-327] inferring latch for variable 'write_reg' [C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sources_1/new/Control_Unit.vhd:82]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   26 Bit       Adders := 1     
+	   2 Input    4 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	                4 Bit    Registers := 2     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	   2 Input   26 Bit        Muxes := 1     
+	   5 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 3     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (CU/write_reg) is unused and will be removed from module Sistema.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     7|
+|3     |LUT1   |     2|
+|4     |LUT2   |     3|
+|5     |LUT3   |     2|
+|6     |LUT4   |     6|
+|7     |LUT5   |     1|
+|8     |LUT6   |     4|
+|9     |FDRE   |    39|
+|10    |FDSE   |     1|
+|11    |LD     |     2|
+|12    |IBUF   |     3|
+|13    |OBUF   |     4|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1468.504 ; gain = 585.848
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 5 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 1468.504 ; gain = 501.887
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 1468.504 ; gain = 585.848
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1468.504 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1468.504 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 2 instances were transformed.
+  LD => LDCE: 2 instances
+
+Synth Design complete | Checksum: af9b25bd
+INFO: [Common 17-83] Releasing license: Synthesis
+43 Infos, 19 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1468.504 ; gain = 982.387
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.runs/synth_1/Sistema.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file Sistema_utilization_synth.rpt -pb Sistema_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 23 19:14:23 2025...

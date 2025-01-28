@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.runs/synth_1/TopModule.tcl"
+  variable script "C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.runs/synth_1/TopModule.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,26 +70,30 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 2
+set_param checkpoint.writeSynthRtdsInDcp 1
+set_param chipscope.maxJobs 3
+set_param xicom.use_bs_reader 1
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.xpr} [current_project]
+set_property webtalk.parent_dir C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.cache/wt [current_project]
+set_property parent.project_path C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.xpr [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language VHDL [current_project]
 set_property board_part digilentinc.com:nexys-a7-100t:part0:1.3 [current_project]
-set_property ip_output_repo {c:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.cache/ip} [current_project]
+set_property ip_output_repo c:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_vhdl -library xil_defaultlib {
-  {C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.srcs/sources_1/imports/Desktop/Magistrale/ASDi/1_Vivado/2_suoi/12_ROM_ON_DISPLAY/12_ROM_ON_DISPLAY.srcs/sources_1/imports/sources_1/new/ButtonDebouncer.vhd}
-  {C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.srcs/sources_1/imports/Desktop/ASDi Da Pushare/3_1_riconoscitoreSequenza/3_1_riconoscitoreSequenza.srcs/sources_1/new/riconoscitore.vhd}
-  {C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.srcs/sources_1/new/TopModule.vhd}
+  C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.srcs/sources_1/imports/vhdl/2_suoi/12_ROM_ON_DISPLAY/12_ROM_ON_DISPLAY.srcs/sources_1/imports/sources_1/new/ButtonDebouncer.vhd
+  C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.srcs/sources_1/imports/vhdl/1_miei/3_1_riconoscitoreSequenza/3_1_riconoscitoreSequenza.srcs/sources_1/new/riconoscitore.vhd
+  C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.srcs/sources_1/new/TopModule.vhd
 }
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -100,12 +104,12 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc {{C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc}}
-set_property used_in_implementation false [get_files {{C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc}}]
+read_xdc C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc
+set_property used_in_implementation false [get_files C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.srcs/constrs_1/imports/digilent-xdc-master/Nexys-A7-100T-Master.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental {C:/Users/UTENTE/Desktop/ASDi Da Pushare/3_2_riconoscitoreBoard/3_2_riconoscitoreBoard.srcs/utils_1/imports/synth_1/control_unit.dcp}
+read_checkpoint -auto_incremental -incremental C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/3_2_RiconoscitoreBoard/3_2_RiconoscitoreBoard.srcs/utils_1/imports/synth_1/control_unit.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

@@ -1,24 +1,3 @@
-----------------------------------------------------------------------------------
--- Company: 
--- Engineer: 
--- 
--- Create Date: 28.10.2021 10:04:57
--- Design Name: 
--- Module Name: ButtonDebouncer - Behavioral
--- Project Name: 
--- Target Devices: 
--- Tool Versions: 
--- Description: 
--- 
--- Dependencies: 
--- 
--- Revision:
--- Revision 0.01 - File Created
--- Additional Comments:
--- 
-----------------------------------------------------------------------------------
-
-
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
@@ -35,7 +14,7 @@ entity ButtonDebouncer is
     generic (                       
         CLK_period: integer := 10;  -- periodo del clock (della board) in nanosecondi
         btn_noise_time: integer := 10000000 -- durata stimata dell'oscillazione del bottone in nanosecondi
-                                            -- il valore di default è 10 millisecondi
+                                            -- il valore di default ? 10 millisecondi
     );
     Port ( RST : in STD_LOGIC;
            CLK : in STD_LOGIC;
@@ -50,13 +29,13 @@ architecture Behavioral of ButtonDebouncer is
 -- segnalare l'avvenuta pressione del bottone.
 -- Il debouncer implementa un semplice automa di 4 stati:
 -- si parte da NOT_PRESSED e, appena si rileva BTN=1, si va in CHK_PRESSED dove 
--- si attende un certo tempo in modo da "superare" l'oscillazione: se il bottone è ancora alto
--- si alza il segnale ripulito in output (avrà la durata di un inmpulso di clock)
+-- si attende un certo tempo in modo da "superare" l'oscillazione: se il bottone ? ancora alto
+-- si alza il segnale ripulito in output (avr? la durata di un inmpulso di clock)
 -- e si va in PRESSED; anche qui quando si rileva BTN=0
 -- si va in uno stato intermedio CHK_NOT_PRESSED in cui si aspetta un certo tempo per superare
--- l'oscillazione: se dopo questo tempo è ancora basso si ritorna in NOT_PRESSED
+-- l'oscillazione: se dopo questo tempo ? ancora basso si ritorna in NOT_PRESSED
 
--- con questo automa se si mantiene il bottone premuto non vengono generati più impulsi in 
+-- con questo automa se si mantiene il bottone premuto non vengono generati pi? impulsi in 
 -- uscita 
 
 type stato is (NOT_PRESSED, CHK_PRESSED, PRESSED, CHK_NOT_PRESSED);
@@ -85,7 +64,7 @@ begin
 				end if;
             when CHK_PRESSED =>
                 if(count = max_count -1) then
-                    if(BTN = '1') then --se arrivo a count max ed è ancora alto vuol dire che non era un bounce, devo alzare CREARED_BTN
+                    if(BTN = '1') then --se arrivo a count max ed ? ancora alto vuol dire che non era un bounce, devo alzare CREARED_BTN
                         count:=0;
                         CLEARED_BTN <= '1';
                         BTN_state <= PRESSED;
@@ -110,7 +89,7 @@ begin
 			
 			when CHK_NOT_PRESSED =>
 			    if(count = max_count -1) then
-                    if(BTN = '0') then --se arrivo a count max ed è ancora basso vuol dire che non era un bounce e il botone è stato rilasciato
+                    if(BTN = '0') then --se arrivo a count max ed ? ancora basso vuol dire che non era un bounce e il botone ? stato rilasciato
                         count:=0;
                         BTN_state <= NOT_PRESSED;
                     else

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="sis_tot_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="sis_tot_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="189.324 ns"></ZoomEndTime>
+      <Cursor1Time time="10.800 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="133"></NameColumnWidth>
+      <ValueColumnWidth column_width="144"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="/sis_tot_tb/CLK" type="logic">
+      <obj_property name="ElementShortName">CLK</obj_property>
+      <obj_property name="ObjectShortName">CLK</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sis_tot_tb/RST" type="logic">
+      <obj_property name="ElementShortName">RST</obj_property>
+      <obj_property name="ObjectShortName">RST</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sis_tot_tb/uut/u_tx/stato_attuale" type="other">
+      <obj_property name="ElementShortName">stato_attuale</obj_property>
+      <obj_property name="ObjectShortName">stato_attuale</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sis_tot_tb/uut/mem1/out_val" type="array">
+      <obj_property name="ElementShortName">out_val[3:0]</obj_property>
+      <obj_property name="ObjectShortName">out_val[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sis_tot_tb/uut/u_rx/stato_attuale" type="other">
+      <obj_property name="ElementShortName">stato_attuale</obj_property>
+      <obj_property name="ObjectShortName">stato_attuale</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sis_tot_tb/uut/u_rx/ack" type="logic">
+      <obj_property name="ElementShortName">ack</obj_property>
+      <obj_property name="ObjectShortName">ack</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sis_tot_tb/uut/mem1/inp_val" type="array">
+      <obj_property name="ElementShortName">inp_val[3:0]</obj_property>
+      <obj_property name="ObjectShortName">inp_val[3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sis_tot_tb/uut/mem1/MEMO" type="array">
+      <obj_property name="ElementShortName">MEMO[0:7][3:0]</obj_property>
+      <obj_property name="ObjectShortName">MEMO[0:7][3:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

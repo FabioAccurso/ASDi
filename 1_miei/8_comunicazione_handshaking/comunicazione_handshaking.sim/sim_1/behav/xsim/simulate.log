@@ -1,0 +1,6 @@
+Time resolution is 1 ps
+ERROR: Index 8 out of bound 0 to 7
+Time: 625 ns  Iteration: 1  Process: /sis_tot_tb/uut/mem1/line__56
+  File: C:/Users/39347/vivado-workspace/comunicazione_handshaking/comunicazione_handshaking.srcs/sources_1/new/MEM.vhd
+
+HDL Line: C:/Users/39347/vivado-workspace/comunicazione_handshaking/comunicazione_handshaking.srcs/sources_1/new/MEM.vhd:60
