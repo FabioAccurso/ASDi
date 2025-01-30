@@ -1,0 +1,14 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/12_1_provaDicembre_A_veloce/12_1_provaDicembre_A_veloce.srcs/sim_1/new/tb_sistema_complessivo_a_veloce.vhd,1738233081,vhdl,,,,tb_sistema_complessivo,,,,,,,,
+C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/12_1_provaDicembre_A_veloce/12_1_provaDicembre_A_veloce.srcs/sources_1/imports/new/Rom_8_4.vhd,1738250895,vhdl,,,,rom,,,,,,,,
+C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/12_1_provaDicembre_A_veloce/12_1_provaDicembre_A_veloce.srcs/sources_1/imports/new/contatore_mod_8.vhd,1738247464,vhdl,,,,counter,,,,,,,,
+C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/12_1_provaDicembre_A_veloce/12_1_provaDicembre_A_veloce.srcs/sources_1/imports/new/registro.vhd,1738074847,vhdl,,,,registro,,,,,,,,
+C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/12_1_provaDicembre_A_veloce/12_1_provaDicembre_A_veloce.srcs/sources_1/imports/new/sistema_a.vhd,1738276275,vhdl,,,,sistema_a,,,,,,,,
+C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/12_1_provaDicembre_A_veloce/12_1_provaDicembre_A_veloce.srcs/sources_1/imports/new/sistema_b.vhd,1738275333,vhdl,,,,sistema_b,,,,,,,,
+C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/12_1_provaDicembre_A_veloce/12_1_provaDicembre_A_veloce.srcs/sources_1/imports/new/sistema_complessivo.vhd,1738275372,vhdl,,,,sistema_complessivo,,,,,,,,
+C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/12_1_provaDicembre_A_veloce/12_1_provaDicembre_A_veloce.srcs/sources_1/imports/new/sommatore.vhd,1738247564,vhdl,,,,carry_lookahead_adder,,,,,,,,
+C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/12_1_provaDicembre_A_veloce/12_1_provaDicembre_A_veloce.srcs/sources_1/imports/new/unita_controllo_A.vhd,1738249506,vhdl,,,,unita_controllo_a,,,,,,,,
+C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/12_1_provaDicembre_A_veloce/12_1_provaDicembre_A_veloce.srcs/sources_1/imports/new/unita_controllo_B.vhd,1738247025,vhdl,,,,unita_controllo_b,,,,,,,,
