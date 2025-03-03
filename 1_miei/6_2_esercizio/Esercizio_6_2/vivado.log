@@ -3,16 +3,18 @@
 # SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
 # IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
 # SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
-# Start of session at: Thu Jan 23 19:12:18 2025
-# Process ID: 1028
-# Current directory: C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17368 C:\Users\Fabio\Downloads\Esercizio_6_2\Esercizio_6_2\Esercizio_6_2.xpr
-# Log file: C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/vivado.log
-# Journal file: C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2\vivado.jou
+# Start of session at: Thu Feb  6 16:50:33 2025
+# Process ID: 12248
+# Current directory: C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/6_2_esercizio/Esercizio_6_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4204 C:\Users\Fabio\Desktop\Magistrale\Architettura_dei_Sistemi_Digitali\vhdl\1_miei\6_2_esercizio\Esercizio_6_2\Esercizio_6_2.xpr
+# Log file: C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/6_2_esercizio/Esercizio_6_2/vivado.log
+# Journal file: C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/6_2_esercizio/Esercizio_6_2\vivado.jou
 # Running On: DESKTOP-MFGGA9M, OS: Windows, CPU Frequency: 3700 MHz, CPU Physical cores: 12, Host memory: 17102 MB
 #-----------------------------------------------------------
 start_gui
-open_project C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.xpr
+open_project C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/6_2_esercizio/Esercizio_6_2/Esercizio_6_2.xpr
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/6_2_esercizio/Esercizio_6_2'
 WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-25:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/arty-s7-25/E.0/board.xml as part xc7s25csga324-1 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-s7-50:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/arty-s7-50/B.0/board.xml as part xc7s50csga324-1 specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part digilentinc.com:arty-z7-10:part0:1.1 available at C:/Xilinx/Vivado/2023.1/data/boards/board_files/arty-z7-10/A.0/board.xml as part xc7z010clg400-1 specified in board_part file is either invalid or not available
@@ -112,41 +114,16 @@ WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216:part0:2.0 availab
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu216ld:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu216ld/production/2.0/board.xml as part xczu59dr-ffvf1760-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670:part0:2.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670/2.0/board.xml as part xczu67dr-fsve1156-2-i specified in board_part file is either invalid or not available
 WARNING: [Board 49-26] cannot add Board Part xilinx.com:zcu670ld:part0:1.0 available at C:/Xilinx/Vivado/2023.1/data/xhub/boards/XilinxBoardStore/boards/Xilinx/zcu670ld/1.0/board.xml as part xczu57dr-fsve1156-2-i specified in board_part file is either invalid or not available
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.gen/sources_1'.
-CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sim_1/imports/new/tb_Sistema.vhd'.
+INFO: [Project 1-313] Project file moved from 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2' since last save.
+INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/6_2_esercizio/Esercizio_6_2/Esercizio_6_2.gen/sources_1'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/6_2_esercizio/Esercizio_6_2/Esercizio_6_2.srcs/sim_1/imports/new/tb_Sistema.vhd', nor could it be found using path 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sim_1/imports/new/tb_Sistema.vhd'.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
-open_project: Time (s): cpu = 00:00:22 ; elapsed = 00:00:10 . Memory (MB): peak = 1530.699 ; gain = 354.547
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 1525.148 ; gain = 336.176
 update_compile_order -fileset sources_1
-rWARNING: [Common 17-9] Error reading message records.
-WARNING: [Common 17-9] Error reading message records.
-exit
-INFO: [Common 17-206] Exiting Vivado at Thu Jan 23 19:19:35 2025...
-ads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.runs/impl_1/runme.log
-reset_run impl_1
-close_project
-open_project C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.xpr
-INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.gen/sources_1'.
-CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/sim_1/imports/new/tb_Sistema.vhd'.
-Scanning sources...
-Finished scanning sources
-INFO: [IP_Flow 19-234] Refreshing IP repositories
-INFO: [IP_Flow 19-1704] No user IP repositories specified
-INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2023.1/data/ip'.
-update_compile_order -fileset sources_1
-reset_run synth_1
-INFO: [Project 1-1161] Replacing file C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.srcs/utils_1/imports/synth_1/Sistema.dcp with file C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.runs/synth_1/Sistema.dcp
-WARNING: [Vivado 12-1017] Problems encountered:
-1. Failed to delete one or more files in run directory C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.runs/synth_1
-
-launch_runs impl_1 -to_step write_bitstream -jobs 6
-[Thu Jan 23 19:13:47 2025] Launched synth_1...
-Run output will be captured here: C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.runs/synth_1/runme.log
-[Thu Jan 23 19:13:47 2025] Launched impl_1...
-Run output will be captured here: C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.runs/impl_1/runme.log
 open_hw_manager
 connect_hw_server -allow_non_jtag
 INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
@@ -175,19 +152,35 @@ ECHO disattivato.
 
 
 
-connect_hw_server: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 1589.371 ; gain = 21.957
+connect_hw_server: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1568.184 ; gain = 14.031
 open_hw_target
 INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210292A8B05AA
-set_property PROGRAM.FILE {C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.runs/impl_1/Sistema.bit} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/6_2_esercizio/Esercizio_6_2/Esercizio_6_2.runs/impl_1/Sistema.bit} [get_hw_devices xc7a100t_0]
 current_hw_device [get_hw_devices xc7a100t_0]
 refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a100t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/6_2_esercizio/Esercizio_6_2/Esercizio_6_2.runs/impl_1/Sistema.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
 INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
 set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
 set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
-set_property PROGRAM.FILE {C:/Users/Fabio/Downloads/Esercizio_6_2/Esercizio_6_2/Esercizio_6_2.runs/impl_1/Sistema.bit} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/6_2_esercizio/Esercizio_6_2/Esercizio_6_2.runs/impl_1/Sistema.bit} [get_hw_devices xc7a100t_0]
+program_hw_devices [get_hw_devices xc7a100t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0]
+set_property PROGRAM.FILE {C:/Users/Fabio/Desktop/Magistrale/Architettura_dei_Sistemi_Digitali/vhdl/1_miei/6_2_esercizio/Esercizio_6_2/Esercizio_6_2.runs/impl_1/Sistema.bit} [get_hw_devices xc7a100t_0]
 program_hw_devices [get_hw_devices xc7a100t_0]
 INFO: [Labtools 27-3164] End of startup status: HIGH
 refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0]
 INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
 exit
-INFO: [Common 17-206] Exiting Vivado at Thu Jan 23 19:19:27 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu Feb  6 17:22:38 2025...
